@@ -135,7 +135,7 @@ header {
   }
   
   /**
-    Hamburger
+    design bars
   **/
   .hamburger {
     position: absolute;
@@ -158,7 +158,7 @@ header {
   }
   
   /**
-  Nav Styles
+  Navmobstyle
   **/
   .nav {
     position: fixed;
@@ -215,7 +215,7 @@ header {
     letter-spacing: 1px;
   }
   /**
-  Animations
+ levizja e bars
   **/
   #toggle:checked + .hamburger .top-bun {
     transform: rotate(-45deg);
@@ -235,28 +235,17 @@ header {
     transform: scale(1);
   }
 
-
-
-
-
-
-//menu mobile
-
 }
-        //nav {
-            //ul {
-            //display: none;
-            //}
-         //}
-
-
-        .titlelogo {
+   .titlelogo {
             text-align: center;
             color: $white;
-            padding-top: 0.7rem;
+            padding-top: 0.5rem;
             padding-bottom: 0.7rem;
-            font-weight: 900;
-                    }
+            padding-left: 0.3rem;
+            font-weight: 600;
+            font-size: 25px;
+                    
+        }
 } 
 main {
     padding: 40px 0px;
@@ -882,6 +871,9 @@ header {
             ul {
             display: flex;
             list-style-type: none;
+            li {
+                
+            }
             li:hover > ul {
                 display: block;
             }
@@ -900,13 +892,13 @@ header {
                  a {
                     color: $white;
                     font-family: "Roboto", Arial, sans-serif;
-                    font-size: 12px;
-                    padding-left: 25px;
-                    padding-right: 25px;
+                    font-size: 14px;
                     color: $white;
-                    font-weight: 400;
+                    font-weight: 500;
                     text-transform: uppercase;
                     letter-spacing: 1px;
+                    margin-right: 15px;
+                    margin-left: 15px;
                 }
             }
         .titlelogo {
@@ -914,7 +906,8 @@ header {
             color: $white;
             padding-top: 0.7rem;
             padding-bottom: 0.7rem;
-            font-weight: 900;
+            font-weight: 600;
+            font-size: 40px;
                     }
             } 
     }
