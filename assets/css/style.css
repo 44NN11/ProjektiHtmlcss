@@ -622,6 +622,7 @@ body img {
   #footer .container .footer .foot-menu h2 {
     margin-bottom: 30px;
     font-weight: 400;
+    color: #000000;
   }
   #footer .container .footer .foot-menu ul a {
     color: #88879e;
@@ -637,6 +638,7 @@ body img {
   #footer .container .footer .info h2 {
     margin-bottom: 30px;
     font-weight: 400;
+    color: #000000;
   }
   #footer .container .footer .info span {
     margin: 10px 0px;
